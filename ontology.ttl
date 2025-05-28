@@ -15,61 +15,61 @@
 #    Object Properties
 #################################################################
 
-###  https://w3id.org/riskman/ontology#causesHarm
+###  https://anonymous.4open.science/r/Riskman-SEMANTICS/ontology#causesHarm
 :causesHarm rdf:type owl:ObjectProperty ;
         rdfs:domain :DomainSpecificHazard ;
         rdfs:range :Harm ;
         rdfs:label "causes harm" .
 
-###  https://w3id.org/riskman/ontology#hasAnalyzedRisk
+###  https://anonymous.4open.science/r/Riskman-SEMANTICS/ontology#hasAnalyzedRisk
 :hasAnalyzedRisk rdf:type owl:ObjectProperty ;
             rdfs:domain :ControlledRisk ;
             rdfs:range :AnalyzedRisk ;
             rdfs:label "has analyzed risk" .
 
 
-###  https://w3id.org/riskman/ontology#hasDeviceContext
+###  https://anonymous.4open.science/r/Riskman-SEMANTICS/ontology#hasDeviceContext
 :hasDeviceContext rdf:type owl:ObjectProperty ;
             rdfs:domain :AnalyzedRisk ;
             rdfs:range :DeviceContext ;
             rdfs:label "has device context" .
 
 
-###  https://w3id.org/riskman/ontology#hasDeviceComponent
+###  https://anonymous.4open.science/r/Riskman-SEMANTICS/ontology#hasDeviceComponent
 :hasDeviceComponent rdf:type owl:ObjectProperty ;
                     rdfs:domain :DomainSpecificHazard ;
                     rdfs:range :DeviceComponent ;
                     rdfs:label "has device component" .
 
-###  https://w3id.org/riskman/ontology#hasDeviceProblem
+###  https://anonymous.4open.science/r/Riskman-SEMANTICS/ontology#hasDeviceProblem
 :hasDeviceProblem rdf:type owl:ObjectProperty ;
                     rdfs:domain :DomainSpecificHazard ;
                     rdfs:range :DeviceProblem ;
                     rdfs:label "has device problem" .
 
 
-###  https://w3id.org/riskman/ontology#hasDomainSpecificHazard
+###  https://anonymous.4open.science/r/Riskman-SEMANTICS/ontology#hasDomainSpecificHazard
 :hasDomainSpecificHazard rdf:type owl:ObjectProperty ;
                          rdfs:label "has domain specific hazard" ;
                          rdfs:domain :AnalyzedRisk ;
                          rdfs:range :DomainSpecificHazard .
 
 
-###  https://w3id.org/riskman/ontology#hasEvent
+###  https://anonymous.4open.science/r/Riskman-SEMANTICS/ontology#hasEvent
 :hasEvent rdf:type owl:ObjectProperty ;
           rdfs:label "has event" ;
           rdfs:domain :HazardousSituation ;
           rdfs:range :Event .
 
 
-###  https://w3id.org/riskman/ontology#hasDeviceFunction
+###  https://anonymous.4open.science/r/Riskman-SEMANTICS/ontology#hasDeviceFunction
 :hasDeviceFunction rdf:type owl:ObjectProperty ;
              rdfs:label "has device function" ;
              rdfs:domain :DomainSpecificHazard ;
              rdfs:range :DeviceFunction .
 
 
-###  https://w3id.org/riskman/ontology#hasHarm
+###  https://anonymous.4open.science/r/Riskman-SEMANTICS/ontology#hasHarm
 :hasHarm rdf:type owl:ObjectProperty ;
          rdfs:label "has harm" ;
          owl:propertyChainAxiom 
@@ -82,27 +82,27 @@
 
 
 
-###  https://w3id.org/riskman/ontology#hasHazard
+###  https://anonymous.4open.science/r/Riskman-SEMANTICS/ontology#hasHazard
 :hasHazard rdf:type owl:ObjectProperty ;
            rdfs:label "has hazard" ;
            rdfs:domain :DomainSpecificHazard ;
            rdfs:range :Hazard .
 
 
-###  https://w3id.org/riskman/ontology#hasHazardousSituation
+###  https://anonymous.4open.science/r/Riskman-SEMANTICS/ontology#hasHazardousSituation
 :hasHazardousSituation rdf:type owl:ObjectProperty ;
                     rdfs:label "has hazardous situation" ;
                     rdfs:domain :AnalyzedRisk ;
                     rdfs:range :HazardousSituation .
 
 
-###  https://w3id.org/riskman/ontology#hasImplementationManifest
+###  https://anonymous.4open.science/r/Riskman-SEMANTICS/ontology#hasImplementationManifest
 :hasImplementationManifest rdf:type owl:ObjectProperty ;
                     rdfs:label "has implementation manifest" ;
                     rdfs:domain :SDA ;
                     rdfs:range :ImplementationManifest .
 
-###  https://w3id.org/riskman/ontology#hasPatientProblem
+###  https://anonymous.4open.science/r/Riskman-SEMANTICS/ontology#hasPatientProblem
 :hasPatientProblem rdf:type owl:ObjectProperty ;
                     rdfs:domain :AnalyzedRisk ;
                     rdfs:range :PatientProblem ;
