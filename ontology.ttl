@@ -1,4 +1,4 @@
-@prefix : <https://w3id.org/riskman/ontology#> .
+@prefix : <https://anonymous.4open.science/r/Riskman-SEMANTICS/ontology#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -8,7 +8,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
 @prefix vann: <http://purl.org/vocab/vann/> . 
-@base <https://w3id.org/riskman/ontology#> .
+@base <https://anonymous.4open.science/r/Riskman-SEMANTICS/ontology#> .
 
                                  
 #################################################################
