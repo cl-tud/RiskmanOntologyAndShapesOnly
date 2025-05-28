@@ -2,9 +2,9 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix schema: <http://schema.org/> .
-@prefix riskman: <https://w3id.org/riskman/ontology#> .
-@prefix rlevel: <https://w3id.org/riskman/ontology#> .
-@prefix : <https://w3id.org/riskman/shapes#> .
+@prefix riskman: <https://anonymous.4open.science/r/Riskman-SEMANTICS/ontology#> .
+@prefix rlevel: <https://anonymous.4open.science/r/Riskman-SEMANTICS/ontology#> .
+@prefix : <https://anonymous.4open.science/r/Riskman-SEMANTICS/shapes#> .
 
 
 
